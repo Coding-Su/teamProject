@@ -31,6 +31,32 @@ a {
   font-weight: 600;
 }
 
+input::placeholder {
+  font-size: 14px;
+  line-height: center;
+}
+
+.btn {
+  width: 69px;
+}
+
+.btn-outline-success {
+  color: #bf9017;
+  border-color: #bf9017;
+}
+
+.btn-outline-success:hover {
+  background-color: #bf9017;
+  border-color: #bf9017;
+  color: white;
+}
+
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    color: white;
+    background-color:  #bf9017;
+    border-color:  #bf9017;
+}
+
 main {
   height: 968px;
   background-color: rgb(41,65,171);
