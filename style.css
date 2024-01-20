@@ -59,7 +59,8 @@ main {
 
 .search-area {
   text-align: center;
-  position: relative;
+  position: relative;  
+  left: 20px;
   bottom: 5rem;  
   background: transparent;
   border-radius: 0;
@@ -169,6 +170,10 @@ main {
 }
 
 @media screen and (max-width:48rem) {
+  .headline {
+    font-size: 50px;
+  }
+
   .main-list {
     font-size: 20px;
   }
